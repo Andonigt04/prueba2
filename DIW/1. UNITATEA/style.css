@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: grey;
+  border: 2px solid red;
+}
+
+nav {
+  background-color: aquamarine;
+  border: 2px solid red;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 2px solid red;
+}
+
+section {
+  width: 40vw;
+  min-height: 20vh;
+  border: 2px solid red;
+}
+
+aside {
+  width: 25vw;
+  min-height: 20vh;
+  border: 2px solid red;
+}
+
+section:nth-child(2n) {
+  background-color: yellow;
+}
+
+aside {
+  position: relative;
+  background-color: grey;
+  order: -1;
+}
+
+footer {
+  background-color: blueviolet;
+  border: 2px solid red;
+}

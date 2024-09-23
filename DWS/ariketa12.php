@@ -5,9 +5,6 @@ echo "$a";
 do {
     $a++;
     echo " - $a ";
-} while($a < 10);
-
-
-
+} while ($a < 10);
 
 ?>
