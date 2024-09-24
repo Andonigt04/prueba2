@@ -8,9 +8,7 @@
 </head>
 
 <body>
-    <p>
-        Hautatu kolorea:
-    </p><br>
+    <p>Hautatu kolorea: </p><br>
     <form action="./AriketaUD3-4Res.php" method="post">
         <input type="radio" name="rd" id="red" value="#FF0000">
         <input type="radio" name="rd" id="green" value="#008000">
